@@ -10,10 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-# dnf5 install -y nix
-
-# wonky patch for nix on fedora >=42
-mkdir /nix
+dnf5 install -y lsp-plugins-lv2 lv2-bankstown
 
 # wonky patch for nix on fedora >=42
 mkdir /nix
