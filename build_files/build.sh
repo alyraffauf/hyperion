@@ -2,6 +2,9 @@
 
 set -ouex pipefail
 
+### Remove packages
+dnf5 remove -y kcm_ublue
+
 ### Install packages
 
 # Packages can be installed from any enabled yum repo on the image.
