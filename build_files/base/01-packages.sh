@@ -15,3 +15,6 @@ dnf5 remove -y kcm_ublue
 
 # Install necessary modules and plugins for pipewire filter-chains.
 dnf5 install -y lsp-plugins-lv2 lv2-bankstown pipewire-module-filter-chain-lv2
+
+# Install Steam for gaming
+dnf5 install -y steam
