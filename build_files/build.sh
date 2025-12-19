@@ -2,6 +2,8 @@
 
 set -ouex pipefail
 
+rsync -rvKl /ctx/system_files/ /
+
 /ctx/base/01-packages.sh
 
 /ctx/base/02-nix.sh
